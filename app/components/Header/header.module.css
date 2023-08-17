@@ -1,0 +1,10 @@
+.header h1 {
+	color: var(--color-orange-base);
+	font-size: 32px;
+}
+
+.header p {
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 8px;
+}

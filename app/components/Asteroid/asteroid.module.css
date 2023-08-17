@@ -1,0 +1,85 @@
+.asteroid {
+	padding-top: 24px;
+}
+
+.asteroid:last-of-type {
+	padding-bottom: 20px;
+}
+
+.date {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.info {
+	padding-top: 8px;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.distance {
+	position: relative;
+	height: 32px;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.arrow { 
+	padding-top: 24px;
+}
+
+.name {
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: underline;
+}
+
+.size {
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+}
+
+.diameter {
+	display: inline-block;
+	transform: scale(1.5);
+	line-height: normal;
+	padding-right: 4px;
+}
+
+.order {
+	display: flex;
+	padding-top: 8px;
+}
+
+.orderButton {
+	width: 90px;
+	height: 24px;
+	background: var(--color-btn-bg);
+	padding: 0 11px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 20px;
+	border-radius: 16px;
+	letter-spacing: 1px;
+	color: var(--color-orange-base);
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.orderButton:active,
+.orderButton:hover {
+	background: var(--color-orange-base);
+	color: var(--color-white);
+}
+
+.danger {
+	padding-left: 10px;
+}

@@ -1,0 +1,28 @@
+.content {
+	padding-left: 72px;
+}
+
+.title {
+	font-size: 28px;
+	line-height: 36px;
+	padding-top: 17px;
+	font-weight: bold;
+}
+
+.toggle {
+	display: flex;
+	padding-top: 8px;
+}
+
+.toggleDivider {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.planetImg {
+	width: 50px;
+    height: 400px;
+    position: absolute;
+    top: 138px;
+    left: 0;
+}
